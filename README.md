@@ -1,6 +1,6 @@
 Summary of steps performed for defining diabetes cases (T1D and T2D) and controls in the UKBB data
 1. A large phenotype file is subsetted based on the Patient IDs (first column) and ICD9 and ICD10 codes 
-2. The first 213 columns represent ICD10 codes with pattern ‘f.41270’ and the remaining column represent ICD9 codes with pattern ’f.41271 ’ in the ‘icdt’ ukbb file \
+2. The first 213 columns represent ICD10 codes with pattern ‘f.41270’ and the remaining column represent ICD9 codes with pattern ’f.41271 ’ in the ‘icdt’ ukbb file 
 3. The first 214 columns were subsetted which comprised of Patient IDs and ICD10 codes 
 4. Here, we used a R package ‘createPhenotypes’. This package requires ICD 9 and ICD 10 codes in the correct format 
 5. Since, we are dealing with ICD10 codes which are alphanumeric codes comprised of either three, four or five characters 
